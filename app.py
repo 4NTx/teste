@@ -5,7 +5,7 @@ import traceback
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app) #iptables -I INPUT -p tcp --dport 5000 -j ACCEPT 
+CORS(app)
 
 def create_tables():
     conn = None
